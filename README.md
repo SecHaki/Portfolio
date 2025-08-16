@@ -16,7 +16,7 @@ This repository contains the backend files for my cybersecurity portfolio. It us
 
 Frontend portfolio is hosted at:
 
-[https://bitmute.github.io](https://bitmute.github.io/Portfolio/)
+[https://C0rruptX.github.io](https://C0rruptX.github.io/Portfolio/)
 
 Here is where you'll find the live version of the site powered by this repository.
 
