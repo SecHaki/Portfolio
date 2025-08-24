@@ -1,9 +1,9 @@
 title: Franks | Portfolio
-description: Showcasing what I build, break, and create. 
+description: Showcasing what I Build, Break, and Create. 
 show_downloads: true
 google_analytics: true
 theme: jekyll-theme-hacker
 github:
-  linkedin_url: "http://www.linkedin.com/in/frank-sotelo-security-analyst"
-  THM_url: "https://tryhackme.com/p/C0rruptX"
+  linkedin_url: "https://www.linkedin.com/in/frank-d-sotelo/"
+  THM_url: "https://tryhackme.com/p/SecHaki"
   
