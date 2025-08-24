@@ -9,7 +9,7 @@ This section showcases a curated collection of Splunk queries I’ve developed d
 Explore the categories below:
 
 ## [🔐-User Authentication & Access Monitoring](./Authentication.html)
-## [💻-Remote Access & VPN Monitoring]
+## [💻-Remote Access & VPN Monitoring](./Remote Access & VPN Monitoring.html)
 ## [📬-Email Security Monitoring]
 ## [📻-Endpoint & Asset Security]
 ## [🔗-Network & File Transfer Monitoring]
