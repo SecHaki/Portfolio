@@ -16,7 +16,7 @@ This repository contains the backend files for my cybersecurity portfolio. It us
 
 Frontend portfolio is hosted at:
 
-[https://C0rruptX.github.io](https://C0rruptX.github.io/Portfolio/)
+[https://SecHaki.github.io](https://SecHaki.github.io/Portfolio/)
 
 Here is where you'll find the live version of the site powered by this repository.
 
