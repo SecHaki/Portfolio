@@ -10,6 +10,6 @@ Explore the categories below:
 
 ## [🔐-User Authentication & Access Monitoring](./Authentication.html)
 ## [💻-Remote Access & VPN Monitoring](./Remote Access & VPN Monitoring.html)
-## [📬-Email Security Monitoring]
-## [📻-Endpoint & Asset Security]
-## [🔗-Network & File Transfer Monitoring]
+## [📬-Email Security Monitoring](./Email-Security-Monitoring.md)
+## [📻-Endpoint & Asset Security](./Endpoint-&-Asset Security.md)
+## [🔗-Network & File Transfer Monitoring](./Network-&-File-Transfer-Monitoring.md)
