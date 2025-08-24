@@ -7,7 +7,7 @@ Monitors remote connections, VPN usage, and proxy activity to ensure secure acce
 
 ---
 
-### VPN Connections Outside the US
+### 1. VPN Connections Outside the US
 ```spl
 index=Zscaler sourcetype="zpa-auth" SessionStatus=STATUS_AUTHENTICATED Username!="Internal IP Anchoring" CountryCode!=US
 | dedup Username
@@ -16,7 +16,7 @@ index=Zscaler sourcetype="zpa-auth" SessionStatus=STATUS_AUTHENTICATED Username!
 | table Email, City, Country
 ```
 
-### Top Users Triggering Proxy Blocks
+### 2. Top Users Triggering Proxy Blocks
 ```spl
 index=Zscaler sourcetype="zscaler-web" user!="Internal->Other" action=Blocked
 | rename user AS User
