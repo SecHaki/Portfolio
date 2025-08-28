@@ -31,6 +31,7 @@ I'm an aspiring cybersecurity professional pursuing a Bachelor of Science in Cyb
   - CompTIA Network+
   - CompTIA A+
 - **CTF's Rankings**
+  - SentinelOne Purple AI ThreatOps Challenge: First Place
   - SentinelOne EDR ThreatOps Challenge: Third Place
 
 <hr style="border: 1px solid #ccc; margin: 20px 0;">
@@ -39,18 +40,22 @@ I'm an aspiring cybersecurity professional pursuing a Bachelor of Science in Cyb
   <a href="https://www.credly.com/badges/eda603c2-8af8-485f-84f9-8b2901f35842/public_url">
     <img src="Assets/Certification/giac-security-essentials-certification-gsec.png" style="width: 100px; height:100px;">
   </a> <!-- Closing the first <a> tag -->
+
+<a href="https://www.credly.com/badges/16380ce9-0baa-4ab4-b71c-c41cefa8b4b2/public_url">
+    <img src="Assets/Certification/comptia-network-ce-certification.1.png" style="width: 110px; height:110px;">
+  </a> <!-- Closing the second <a> tag -->
+  
+  <a href="https://www.credly.com/badges/fd9bc18e-5a51-48fb-baec-c11ca84ffdda/public_url">
+    <img src="Assets/Certification/comptia-a-ce-certification.1.png" style="width: 110px; height:110px;">
+  </a> <!-- Closing the second <a> tag -->
+  
+  <a href="https://www.credly.com/badges/aac3635c-0a06-4482-a983-3b25dd7498df/public_url">
+    <img src="Assets/Certification/sentinelone-purple-ai-threatops-challenge-first-pla.png" style="width: 100px; height:100px;">   
+  </a> <!-- Closing the third <a> tag -->
   
   <a href="https://www.credly.com/badges/c44ded03-93b2-488c-aff1-d98813e7f614/public_url">
     <img src="Assets/Certification/sentinelone-edr-threatops-challenge-third-place.png" style="width: 100px; height:100px;">   
   </a> <!-- Closing the third <a> tag -->
-
-<a href="https://www.credly.com/badges/16380ce9-0baa-4ab4-b71c-c41cefa8b4b2/public_url">
-    <img src="Assets/Certification/comptia-network-ce-certification.1.png" style="width: 100px; height:100px;">
-  </a> <!-- Closing the second <a> tag -->
-  
-  <a href="https://www.credly.com/badges/fd9bc18e-5a51-48fb-baec-c11ca84ffdda/public_url">
-    <img src="Assets/Certification/comptia-a-ce-certification.1.png" style="width: 100px; height:100px;">
-  </a> <!-- Closing the second <a> tag -->
 </div>
 
 <hr style="border: 1px solid #ccc; margin: 20px 0;">
