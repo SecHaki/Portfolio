@@ -4,6 +4,5 @@ show_downloads: true
 google_analytics: true
 theme: jekyll-theme-hacker
 github:
-  linkedin_url: "https://www.linkedin.com/in/frank-d-sotelo/"
   THM_url: "https://tryhackme.com/p/SecHaki"
   
