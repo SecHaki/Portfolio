@@ -109,7 +109,7 @@ Completed DHS-aligned cybersecurity training focused on federal threat detection
 <h2>🧠 Skills & Tools</h2>
 
 <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 20px;">
-  <thead style="background-color: #1f2937; color: #ffffff;">
+  <thead>
     <tr>
       <th style="padding: 12px; border: 1px solid #ddd;">🔐 Security Domains</th>
       <th style="padding: 12px; border: 1px solid #ddd;">⚙️ Tools, Platforms & Technologies</th>
@@ -120,7 +120,7 @@ Completed DHS-aligned cybersecurity training focused on federal threat detection
       <td style="padding: 12px; border: 1px solid #ddd;">🖥️ Operating Systems</td>
       <td style="padding: 12px; border: 1px solid #ddd;">Windows 10/11, Linux, macOS, Chrome OS</td>
     </tr>
-    <tr style="background-color: #f3f4f6;">
+    <tr>
       <td style="padding: 12px; border: 1px solid #ddd;">👤 Identity & Access Management (IAM)</td>
       <td style="padding: 12px; border: 1px solid #ddd;">Active Directory, Azure AD, Conditional Access, PowerShell, Active Roles</td>
     </tr>
@@ -128,7 +128,7 @@ Completed DHS-aligned cybersecurity training focused on federal threat detection
       <td style="padding: 12px; border: 1px solid #ddd;">🛡️ Endpoint Detection & Response (EDR)</td>
       <td style="padding: 12px; border: 1px solid #ddd;">SentinelOne, Carbon Black, Malwarebytes Nebula</td>
     </tr>
-    <tr style="background-color: #f3f4f6;">
+    <tr>
       <td style="padding: 12px; border: 1px solid #ddd;">📊 SIEM & Security Monitoring</td>
       <td style="padding: 12px; border: 1px solid #ddd;">Splunk, Microsoft Defender, Proofpoint TRAP</td>
     </tr>
@@ -136,7 +136,7 @@ Completed DHS-aligned cybersecurity training focused on federal threat detection
       <td style="padding: 12px; border: 1px solid #ddd;">🚨 Incident Response & Malware Analysis</td>
       <td style="padding: 12px; border: 1px solid #ddd;">ANY.RUN, VirusTotal, Hybrid Analysis, Joe Sandbox, Intezer Analyze</td>
     </tr>
-    <tr style="background-color: #f3f4f6;">
+    <tr>
       <td style="padding: 12px; border: 1px solid #ddd;">📬 Email & Phishing Analysis</td>
       <td style="padding: 12px; border: 1px solid #ddd;">MXToolbox, MailHeader Analyzer, DNSChecker, Proofpoint Awareness</td>
     </tr>
@@ -144,7 +144,7 @@ Completed DHS-aligned cybersecurity training focused on federal threat detection
       <td style="padding: 12px; border: 1px solid #ddd;">🔎 Threat Intelligence & OSINT</td>
       <td style="padding: 12px; border: 1px solid #ddd;">MITRE ATT&CK, IBM X-Force Exchange, Cisco Talos, SANS ISC, Spamhaus</td>
     </tr>
-    <tr style="background-color: #f3f4f6;">
+    <tr>
       <td style="padding: 12px; border: 1px solid #ddd;">🌐 Network & Protocol Analysis</td>
       <td style="padding: 12px; border: 1px solid #ddd;">Wireshark, Nmap, Tcpdump</td>
     </tr>
@@ -152,7 +152,7 @@ Completed DHS-aligned cybersecurity training focused on federal threat detection
       <td style="padding: 12px; border: 1px solid #ddd;">🕵️ OSINT & Exposure Discovery</td>
       <td style="padding: 12px; border: 1px solid #ddd;">Shodan, Have I Been Pwned, DomainTools, WHOIS, MXToolbox</td>
     </tr>
-    <tr style="background-color: #f3f4f6;">
+    <tr>
       <td style="padding: 12px; border: 1px solid #ddd;">🧱 Hardening, Baselines & Compliance</td>
       <td style="padding: 12px; border: 1px solid #ddd;">CIS Benchmarks, Windows Security Baselines, CJIS Compliance</td>
     </tr>
@@ -160,7 +160,7 @@ Completed DHS-aligned cybersecurity training focused on federal threat detection
       <td style="padding: 12px; border: 1px solid #ddd;">⚙️ Automation & Scripting</td>
       <td style="padding: 12px; border: 1px solid #ddd;">PowerShell, Intune, SQL</td>
     </tr>
-    <tr style="background-color: #f3f4f6;">
+    <tr>
       <td style="padding: 12px; border: 1px solid #ddd;">📡 Network & Endpoint Management</td>
       <td style="padding: 12px; border: 1px solid #ddd;">Intune, SentinelOne Dynamic Groups, APC Smart-UPS</td>
     </tr>
@@ -168,7 +168,7 @@ Completed DHS-aligned cybersecurity training focused on federal threat detection
       <td style="padding: 12px; border: 1px solid #ddd;">📈 Dashboards & Reporting</td>
       <td style="padding: 12px; border: 1px solid #ddd;">Splunk Custom Dashboards, SentinelOne Policy Matrix, Excel, SharePoint</td>
     </tr>
-    <tr style="background-color: #f3f4f6;">
+    <tr>
       <td style="padding: 12px; border: 1px solid #ddd;">🔐 Account & Credential Security</td>
       <td style="padding: 12px; border: 1px solid #ddd;">Active Directory Audits, On-Prem Password Manager</td>
     </tr>
