@@ -104,9 +104,8 @@ Completed DHS-aligned cybersecurity training focused on federal threat detection
 ## [More Coming Soon]()
 
 ---
-## 🧠 Technical Skills
 
-<h2>🧠 Skills & Tools</h2>
+<h2>🧠 Technical Skills</h2>
 
 <table style="width: 100%; border-collapse: collapse; text-align: left; margin-bottom: 20px;">
   <thead>
@@ -177,7 +176,7 @@ Completed DHS-aligned cybersecurity training focused on federal threat detection
 
 ---
 
-### 🧠 Soft Skills
+## 🧠 Soft Skills
 
 - Communicate security findings clearly to both technical teams and non-technical stakeholders through reports, dashboards, and briefings  
 - Apply critical thinking and analytical reasoning to investigate alerts, assess risk, and support incident response decisions  
