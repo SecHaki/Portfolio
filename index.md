@@ -122,7 +122,7 @@ Completed DHS-aligned cybersecurity training focused on federal threat detection
     </tr>
     <tr>
       <td style="padding: 12px; border: 1px solid #ddd;">👤 Identity & Access Management (IAM)</td>
-      <td style="padding: 12px; border: 1px solid #ddd;">Active Directory, Azure AD, Conditional Access, PowerShell, Active Roles</td>
+      <td style="padding: 12px; border: 1px solid #ddd;">Active Directory, Azure AD, Conditional Access, PowerShell</td>
     </tr>
     <tr>
       <td style="padding: 12px; border: 1px solid #ddd;">🛡️ Endpoint Detection & Response (EDR)</td>
@@ -142,7 +142,7 @@ Completed DHS-aligned cybersecurity training focused on federal threat detection
     </tr>
     <tr>
       <td style="padding: 12px; border: 1px solid #ddd;">🔎 Threat Intelligence & OSINT</td>
-      <td style="padding: 12px; border: 1px solid #ddd;">MITRE ATT&CK, IBM X-Force Exchange, Cisco Talos, SANS ISC, Spamhaus</td>
+      <td style="padding: 12px; border: 1px solid #ddd;">MITRE ATT&CK, Cisco Talos, SANS ISC, Threat Connect</td>
     </tr>
     <tr>
       <td style="padding: 12px; border: 1px solid #ddd;">🌐 Network & Protocol Analysis</td>
@@ -162,7 +162,7 @@ Completed DHS-aligned cybersecurity training focused on federal threat detection
     </tr>
     <tr>
       <td style="padding: 12px; border: 1px solid #ddd;">📡 Network & Endpoint Management</td>
-      <td style="padding: 12px; border: 1px solid #ddd;">Intune, SentinelOne Dynamic Groups, APC Smart-UPS</td>
+      <td style="padding: 12px; border: 1px solid #ddd;">Intune, SentinelOne Dynamic Groups</td>
     </tr>
     <tr>
       <td style="padding: 12px; border: 1px solid #ddd;">📈 Dashboards & Reporting</td>
