@@ -55,7 +55,7 @@ Completed DHS-aligned cybersecurity training focused on federal threat detection
 
 <div style="display: flex; gap: 10px;">
   <a href="https://www.credly.com/badges/ebe392d9-8fe3-4bcb-972c-3d6d8ef989be/public_url">
-    <img src="Assets/Certification/comptia-cysa-ce-certification.png" style="width: 100px; height:100px;">
+    <img src="Assets/Certification/comptia-cysa-ce-certification.png" style="width: 110px; height:110px;">
   </a> <!-- Closing the first <a> tag -->
 
   <a href="https://www.credly.com/badges/eda603c2-8af8-485f-84f9-8b2901f35842/public_url">
