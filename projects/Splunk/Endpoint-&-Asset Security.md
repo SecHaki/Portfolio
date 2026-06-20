@@ -9,7 +9,7 @@ Tracks alerts and threats on endpoints and assets, helping detect compromised de
 
 ### 1. Top Assets Triggering EDR Alerts
 ```spl
-index=sentinelone sourcetype="threats"
+index=edr sourcetype="threats"
 | dedup id
 | stats count by agentRealtimeInfo.agentComputerName
 | rename agentRealtimeInfo.agentComputerName as Asset
@@ -18,7 +18,7 @@ index=sentinelone sourcetype="threats"
 
 ### 2. Top Users Triggering EDR Alerts
 ```spl
-index=sentinelone sourcetype="threats"
+index=edr sourcetype="threats"
 | dedup id
 | stats count by agentDetectionInfo.agentLastLoggedInUserName
 | rename agentDetectionInfo.agentLastLoggedInUserName as User
