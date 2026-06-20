@@ -9,12 +9,12 @@ Tracks and analyzes user login activity, including successful and failed logins,
 
 ### 1. Failed vs. Successful Logins (Graph)
 ```spl
-index=O365 sourcetype=activity Workload=AzureAD Operation IN ("UserLoggedIn", "UserLoginFailed")
+index=identity_provider sourcetype=activity Workload=AzureAD Operation IN ("UserLoggedIn", "UserLoginFailed")
 | timechart span=1h count by Operation
 ```
 ### 2. Logins from Outside the US
 ```spl
-index=Azure sourcetype=Azure:signin status.errorCode=0 AND (conditionalAccessStatus=success OR conditionalAccessStatus=notApplied) AND NOT(location.countryOrRegion="" OR location.countryOrRegion="US")
+index=identity_provider sourcetype=signin status.errorCode=0 AND (conditionalAccessStatus=success OR conditionalAccessStatus=notApplied) AND NOT(location.countryOrRegion="" OR location.countryOrRegion="US")
 | fields userPrincipalName, userDisplayName, location.countryOrRegion, location.city
 | eval Time=strftime(_time, "%m/%d/%y %H:%M")
 | rename userPrincipalName AS Email
@@ -26,7 +26,7 @@ index=Azure sourcetype=Azure:signin status.errorCode=0 AND (conditionalAccessSta
 ```
 ### 3. Users with High Failed Login Attempts
 ```spl
-index=Azure sourcetype=Azure:signin
+index=identity_provider sourcetype=signin
 | search status.errorCode=500121 OR status.errorCode=50074
 | dedup _time
 | rename userPrincipalName AS Email
