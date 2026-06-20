@@ -48,7 +48,6 @@ Earned Certificates of Achievement in Cybersecurity, Systems & Network Administr
 - LPI Linux Essentials
 
 ### Competitions
-- **SentinelOne Capture the Flag** — 🥇 1st Place (2025)
 - **SentinelOne Purple AI ThreatOps Challenge** — 🥇 1st Place
 - **SentinelOne EDR ThreatOps Challenge** — 🥉 3rd Place
 
@@ -82,9 +81,9 @@ Earned Certificates of Achievement in Cybersecurity, Systems & Network Administr
   <a href="https://www.credly.com/badges/bdb5583f-24c8-4cc9-b373-ec42b312431f/public_url">
     <img src="Assets/Certification/linux-essentials-certificate.png" style="width: 95px; height: 95px;">
   </a>
-
-  <!-- PLACEHOLDER: PenTest+ badge — add Credly link + image when ready -->
+  
   <a href="#">
+  <a href="https://www.credly.com/badges/ea885fa9-6616-4505-9514-3faf334071a4/public_url">
     <img src="Assets/Certification/comptia-pentest-ce-certification.png" style="width: 110px; height:110px;">
   </a>
 </div>
