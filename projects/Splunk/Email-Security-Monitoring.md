@@ -7,7 +7,7 @@ Identifies and investigates malicious or suspicious emails, including malware an
 
 ### 1. Malware Senders
 ``` spl
-index=o365 sourcetype=Activity Verdict=Malware
+index=email_security sourcetype=Activity Verdict=Malware
 | dedup ObjectId
 | rename P2Sender AS Attacker
 | rex field=ThreatsAndDetectionTech{} "Malware:\s*\[(?<MalwareTech>[^\]]+)\]"
@@ -17,7 +17,7 @@ index=o365 sourcetype=Activity Verdict=Malware
 
 ### 2. Phishing Email Senders
 ``` spl
-index=o365 sourcetype=Activity Verdict=Phish
+index=email_security sourcetype=Activity Verdict=Phish
 | dedup ObjectId
 | rename P2Sender AS Attacker
 | stats count by Attacker
