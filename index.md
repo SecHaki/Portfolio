@@ -54,6 +54,10 @@ Earned Certificates of Achievement in Cybersecurity, Systems & Network Administr
 <hr style="border: 1px solid #ccc; margin: 20px 0;">
 
 <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+  <a href="https://www.credly.com/badges/ea885fa9-6616-4505-9514-3faf334071a4/public_url">
+    <img src="Assets/Certification/comptia-pentest-ce-certification.png" style="width: 110px; height:110px;">
+  </a>
+  
   <a href="https://www.credly.com/badges/ebe392d9-8fe3-4bcb-972c-3d6d8ef989be/public_url">
     <img src="Assets/Certification/comptia-cysa-ce-certification.png" style="width: 110px; height:110px;">
   </a>
@@ -81,11 +85,7 @@ Earned Certificates of Achievement in Cybersecurity, Systems & Network Administr
   <a href="https://www.credly.com/badges/bdb5583f-24c8-4cc9-b373-ec42b312431f/public_url">
     <img src="Assets/Certification/linux-essentials-certificate.png" style="width: 95px; height: 95px;">
   </a>
-  
-  <a href="#">
-  <a href="https://www.credly.com/badges/ea885fa9-6616-4505-9514-3faf334071a4/public_url">
-    <img src="Assets/Certification/comptia-pentest-ce-certification.png" style="width: 110px; height:110px;">
-  </a>
+
 </div>
 
 <hr style="border: 1px solid #ccc; margin: 20px 0;">
