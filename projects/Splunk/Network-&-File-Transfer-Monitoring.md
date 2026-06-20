@@ -9,7 +9,7 @@ Monitors network activity and file transfers, including rare or suspicious SMB t
 
 ### 1. SMB File Transfers (Rare Activity)
 ```spl
-index=extrahop sourcetype=extrahop:detection type="new_smb_cifs_file_transfer"
+index=network_detection sourcetype=detection type="new_smb_cifs_file_transfer"
 | eval Start = strftime(start_time/1000, "%m/%d/%y %H:%M"), End = strftime(end_time/1000, "%m/%d/%y %H:%M")
 | rex field=description "\[(?<Asset>[^\]]+)\]\(https:\/\/"
 | rex field=description "\[[^\]]+\]\((?<URL>https:\/\/[^\)]+)\)"
@@ -20,7 +20,7 @@ index=extrahop sourcetype=extrahop:detection type="new_smb_cifs_file_transfer"
 ```
 ### 2. Websites Using Plain HTTP (Insecure Credentials)
 ```spl
-index=extrahop sourcetype=extrahop:detection title="*Plaintext Credentials*" properties.uri{}!="*internal.example.com*" properties.uri{}!="10.*" properties.uri{}!="gateway.zscaler.net*"
+index=network_detection sourcetype=detection title="*Plaintext Credentials*" properties.uri{}!="*internal.example.com*" properties.uri{}!="10.*" properties.uri{}!="gateway.proxy.net*"
 | rename properties.uri{} AS URL
 | rename participants{}.object_value AS Src_IP
 | dedup Src_IP
