@@ -9,7 +9,7 @@ Monitors remote connections, VPN usage, and proxy activity to ensure secure acce
 
 ### 1. VPN Connections Outside the US
 ```spl
-index=Zscaler sourcetype="zpa-auth" SessionStatus=STATUS_AUTHENTICATED Username!="Internal IP Anchoring" CountryCode!=US
+index=secure_access sourcetype="vpn-auth" SessionStatus=STATUS_AUTHENTICATED Username!="Internal IP Anchoring" CountryCode!=US
 | dedup Username
 | rename Username AS Email
 | rename CountryCode AS Country
@@ -18,7 +18,7 @@ index=Zscaler sourcetype="zpa-auth" SessionStatus=STATUS_AUTHENTICATED Username!
 
 ### 2. Top Users Triggering Proxy Blocks
 ```spl
-index=Zscaler sourcetype="zscaler-web" user!="Internal->Other" action=Blocked
+index=secure_access sourcetype="web-proxy" user!="Internal->Other" action=Blocked
 | rename user AS User
 | eval Domain=lower(
     if(
