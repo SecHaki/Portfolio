@@ -105,6 +105,7 @@ Earned Certificates of Achievement in Cybersecurity, Systems & Network Administr
 ---
 
 # 💻 Showcasing my Homelab and Projects
+## [☠️ Malware Analysis Box](./projects/malware_analysis_box/FlareVM-Setup.md)
 ## [🔎 Splunk Detection Queries](./projects/Splunk/Splunk-Library.html)
 ## [🌐 Network Lab](./projects/network-lab.html)
 ## [More Coming Soon]()
